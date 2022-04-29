@@ -1,0 +1,152 @@
+.container {
+  text-align: center;
+  background: linear-gradient(45deg, #a23fb1, #4e51ec);
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  border-radius: 20px;
+  padding: auto;
+  margin: 40px auto;
+  font-family: "Work Sans", sans-serif;
+}
+.container-2 {
+  padding: 8px;
+}
+a {
+  all: unset;
+}
+
+.btn {
+  background: linear-gradient(45deg, #a23fb1, #4e51ec);
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  width: 45%;
+  height: 150%;
+  padding: 5px;
+  margin: 2px 10;
+}
+.todo-form {
+  display: flex;
+  background: #eaeaf3;
+  margin: 2% 12%;
+  padding: 2px;
+  border-radius: 10px;
+  border-bottom: 3px solid #b8b8e2;
+}
+
+.todo-input {
+  border-radius: 5px;
+  width: 100%;
+  outline: none;
+  font-size: 20px;
+  border-color: transparent;
+  background: transparent;
+}
+
+.todo-list {
+  margin-top: 5%;
+  display: block;
+}
+
+.delete {
+  border: transparent;
+  background: transparent;
+  margin-left: auto;
+  color: transparent;
+}
+.todo-li-item:hover .sil {
+  color: #b2b8b2;
+}
+
+label {
+  display: flex;
+  background: #eaeaf3;
+  padding: 4px;
+  border-radius: 10px;
+  border-bottom: 0px solid #b8b8e2;
+  width: auto;
+  font-size: 19px;
+  font-family: "Work Sans", sans-serif;
+}
+.foot-div {
+  display: flex;
+}
+
+.foot-div footer {
+  background: transparent;
+  display: flex;
+  width: 100%;
+  margin: 5%;
+  margin-top: 5%;
+  margin-left: 10%;
+  font-family: sans-serif;
+}
+
+footer .btn-fooret {
+  margin-left: 5%;
+  background: transparent;
+  border: transparent;
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+}
+.btn-footer:focus {
+  color: blue;
+}
+.btn-footer:hover {
+  color: blue;
+}
+.label .delete {
+  width: 85px;
+  height: 20px;
+  margin: 1px 1px;
+  margin-bottom: 5px;
+  margin-left: 700%;
+  color: #46da32;
+}
+
+input[type="checkbox"] {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  -webkit-appearance: none;
+  border-radius: 50px;
+  background: #e9e9eb;
+}
+
+input[type="checkbox"] {
+  border: 2px solid rgb(117, 119, 124);
+}
+
+input[type="checkbox"]:hover {
+  border-bottom: 3px solid rgb(112, 67, 129);
+}
+
+input[type="checkbox"]:checked {
+  background: #46da32;
+}
+input[type="checkbox"] + label {
+  color: black;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: #757775;
+}
+
+.todo-li-item {
+  color: #b2b8b2;
+  display: flex;
+  background: #eaeaf3;
+  width: 70%;
+  margin: 2% 12.5%;
+  padding: 1em;
+  border-radius: 10px;
+  position: relative;
+}
+
+.todo-li-item:hover {
+  color: #757775;
+}
